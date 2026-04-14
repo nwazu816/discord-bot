@@ -1,16 +1,13 @@
 {
-  "name": "@workspace/discord-bot",
+  "name": "discord-bot",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "tsx src/index.ts",
-    "dev": "tsx watch src/index.ts"
+    "start": "npx tsx src/index.ts"
   },
   "dependencies": {
-    "discord.js": "^14.18.0"
-  },
-  "devDependencies": {
-    "tsx": "catalog:"
+    "discord.js": "^14.18.0",
+    "tsx": "^4.7.0"
   }
 }

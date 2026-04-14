@@ -4,10 +4,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "npx tsx src/index.ts"
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts"
   },
   "dependencies": {
-    "discord.js": "^14.18.0",
-    "tsx": "^4.7.0"
+    "discord.js": "^14.18.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.0.0"
   }
 }
